@@ -168,7 +168,7 @@ export function onLoad() {
                 loadingIndicatorElem.style.left = `${x}px`;
                 loadingIndicatorElem.style.top = `${y + 12}px`;
 
-                fetch("https://api.openai.com/v1/chat/completions", {
+                fetch("https://api.naga.ac//v1/chat/completions", {
                   method: "POST",
                   headers: {
                     "Content-Type": "application/json",
